@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Benjo's Exam</h1>
+
+<form action="#">
+    <table cellspacing="10" style="vertical-align: top;">
+        <tbody>
+            <tr>
+                <td>
+                    <label class="container">Vegetarian
+                        <input type="radio" id="101" name="fsec" value="Vegetarian" onclick="sec()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Nut Allergy
+                        <input type="radio" id="102" name="fsec" value="Nut Allergy"  onclick="sec()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Halal
+                        <input type="radio" id="103" name="fsec"  value="Halal"  onclick="sec()">
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+                <td></td>
+                <td>
+                    <label class="container">Cashew chicken
+                    <input type="radio" id="201" name="sec_sec" value="Cashew chicken" disabled onclick="sec2()">
+                    <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Sweet and sour pork
+                        <input type="radio" id="202" name="sec_sec" value="Sweet and sour pork" disabled onclick="sec2()">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Stir fried Tofu
+                        <input type="radio" id="203" name="sec_sec" value="Stir fried Tofu" disabled onclick="sec2()">                    
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Vegetable fried rice
+                        <input type="radio" id="204" name="sec_sec" value="Vegetable fried rice" disabled  onclick="sec2()">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Pad Thai
+                        <input type="radio" id="205" name="sec_sec" value="Pad Thai" disabled  onclick="sec2()">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Massaman beef
+                        <input type="radio" id="206" name="sec_sec" value="Massaman beef" disabled onclick="sec2()">
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+                
+                <td></td>
+                <td>
+                    <label class="container" >Peanut sauce
+                        <input type="radio" id="301" name="third_sec" value="Peanut sauce"  onclick="sec3()" disabled>
+                     <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Oyster sauce
+                        <input type="radio" id="302" name="third_sec" value="Oyster sauce" onclick="sec3()" disabled>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Vegetable spring rolls
+                        <input type="radio" id="303" name="third_sec" value="Vegetable spring rolls" onclick="sec3()" disabled>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Steamed rice
+                        <input type="radio" id="304" name="third_sec" value="Steamed rice" onclick="sec3()" disabled>
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+            </tr>
+        </tbody>       
+    </table>
+    
+    </label>
+    <input type="submit" id="submit" disabled="disabled" />
+</form>
+
+<script src="custom.js"></script>
+
+</body>
+</html>
